@@ -84,7 +84,7 @@ import os
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import CharacterTextSplitter
 
-file_path = "/Users/evelyn/Documents/Mirror-Project/MIRROR_LOG.md"
+file_path = "./data/CURATED_PUBLIC_DATA.md"
 
 if os.path.exists(file_path):
     print(f"✅ Loading: {file_path}")
@@ -216,7 +216,7 @@ prompt = ChatPromptTemplate.from_messages([
 
 
 response = agent_executor.invoke({
-    "input": "What is MIRROR_LOG.md?"
+    "input": "What ships has Evelyn built?"
 })
 print(response["output"])
 
