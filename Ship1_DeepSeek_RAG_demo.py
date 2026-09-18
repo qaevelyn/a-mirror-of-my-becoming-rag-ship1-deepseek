@@ -1,4 +1,11 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+# ============================================================
+# Copyright (c) 2026 Evelyn Caro. All rights reserved.
+# A Mirror of My Becoming
+# https://evelynacaro.github.io
+# For licensing inquiries: evelyn.caro.cloud@gmail.com
+# ============================================================
+
 # coding: utf-8
 
 # Ship 1: AWS + DeepSeek Agentic RAG Pipeline
