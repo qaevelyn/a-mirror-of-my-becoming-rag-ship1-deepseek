@@ -215,8 +215,10 @@ prompt = ChatPromptTemplate.from_messages([
 # In[17]:
 
 
-response = agent_executor.invoke({
-    "input": "What ships has Evelyn built?"
-})
-print(response["output"])
+query = "What is A Mirror of My Becoming?"
+docs = retriever.invoke(query)
+context = "\n\n".join([doc.page_content for doc in docs])
+response = llm.invoke(f"Context:\n{context}\n\nQuestion: {query}\n\nAnswer:")
+print(response.content)
+print(response.content)
 
