@@ -1,4 +1,4 @@
-# Ship 1: AWS + DeepSeek RAG Pipeline
+# ship1 of the A Mirror of My Becoming fleet — Ship 1: AWS + DeepSeek RAG Pipeline
 
 **Built:** August 2026
 **Author:** Evelyn Caro
