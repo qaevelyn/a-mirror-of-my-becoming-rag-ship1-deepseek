@@ -2,12 +2,12 @@
 
 **A RAG pipeline that AWS lost and a MacBook Air rebuilt.**
 
-Ship 1 is the first working retrieval-augmented generation pipeline in A Mirror of My Becoming. It was originally built on AWS SageMaker. It was lost when the SageMaker instance was lost — the EBS volume corrupted, no AMI, no snapshot, no recovery path through the AWS CLI or the AWS Management Console. It was rebuilt locally from the author's archive, on consumer hardware, and made sovereign: the pipeline now lives on disk the author owns, in code the author controls, and in a form that can be rebuilt from the same sources every time.
+Ship 1 is the first working retrieval-augmented generation pipeline in A Mirror of My Becoming™. It was originally built on AWS SageMaker. It was lost when the SageMaker instance was lost — the EBS volume corrupted, no AMI, no snapshot, no recovery path through the AWS CLI or the AWS Management Console. It was rebuilt locally from the author's archive, on consumer hardware, and made sovereign: the pipeline now lives on disk the author owns, in code the author controls, and in a form that can be rebuilt from the same sources every time.
 
 **Built:** August 2026 (AWS SageMaker). Rebuilt locally in August 2026.
 **Author:** Evelyn Caro
 **Status:** Built and working
-**Part of A Mirror of My Becoming** — fleet index: [a-mirror-of-my-becoming-rag-pipelines](https://github.com/qaevelyn/a-mirror-of-my-becoming-rag-pipelines)
+**Part of A Mirror of My Becoming™** — fleet index: [a-mirror-of-my-becoming-rag-pipelines](https://github.com/qaevelyn/a-mirror-of-my-becoming-rag-pipelines)
 
 ---
 
@@ -82,7 +82,7 @@ A dedicated case study on Ship 1 — the AWS loss and the local rebuild — is i
 
 ## The fleet
 
-Ship 1 of the A Mirror of My Becoming RAG pipelines fleet. The fleet index is [here](https://github.com/qaevelyn/a-mirror-of-my-becoming-rag-pipelines).
+Ship 1 of the A Mirror of My Becoming™ RAG pipelines fleet. The fleet index is [here](https://github.com/qaevelyn/a-mirror-of-my-becoming-rag-pipelines).
 
 - **Ship 1** — this repo — DeepSeek RAG, standard, rebuilt local after AWS lost it
 - **[Ship 2](https://github.com/qaevelyn/a-mirror-of-my-becoming-rag-ship2-ibm-granite-agentic)** — IBM Granite Agentic RAG
@@ -92,7 +92,7 @@ Ship 1 of the A Mirror of My Becoming RAG pipelines fleet. The fleet index is [h
 
 **[Suite: Ingestion Tools](https://github.com/qaevelyn/a-mirror-of-my-becoming-suite-ingestion-tools)** — the tooling that gets documents into the vector store this ship reads from.
 
-**[A Mirror of My Becoming](https://github.com/qaevelyn/a-mirror-of-my-becoming)** — the parent index for the entire practice.
+**[A Mirror of My Becoming™](https://github.com/qaevelyn/a-mirror-of-my-becoming)** — the parent index for the entire practice.
 
 ---
 
